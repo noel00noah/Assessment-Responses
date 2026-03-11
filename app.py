@@ -18,49 +18,50 @@ SHEET_NAME = "Sheet1"
 
 QUESTIONS = [
     {"q": "What comes next? 2, 4, 6, 8, ?",
-      "options": ["A. 9","B. 10","C. 11","D. 12"], "correct": "B. 10", "situation": False},
-    {"q": "Solve for x: 5x − 10 = 20",
-      "options": ["A. 4","B. 5","C. 6","D. 7"], "correct": "C. 6", "situation": False},
+     "options": ["A. 9","B. 10","C. 11","D. 12"], "correct": "B. 10", "situation": False},
+    {"q": "Solve for x: 5x \u2212 10 = 20",
+     "options": ["A. 4","B. 5","C. 6","D. 7"], "correct": "C. 6", "situation": False},
     {"q": "25% of 200 =",
-      "options": ["A. 25","B. 40","C. 50","D. 75"], "correct": "C. 50", "situation": False},
+     "options": ["A. 25","B. 40","C. 50","D. 75"], "correct": "C. 50", "situation": False},
     {"q": "How to copy text?",
-      "options": ["A. Ctrl + C","B. Ctrl + B","C. Ctrl + V","D. Ctrl + S"], "correct": "A. Ctrl + C", "situation": False},
+     "options": ["A. Ctrl + C","B. Ctrl + B","C. Ctrl + V","D. Ctrl + S"], "correct": "A. Ctrl + C", "situation": False},
     {"q": "How to paste text?",
-      "options": ["A. Ctrl + C","B. Ctrl + B","C. Ctrl + V","D. Ctrl + S"], "correct": "C. Ctrl + V", "situation": False},
-    {"q": "What should you do if you face a problem or task that you don\'t know how to handle?",
-      "options": ["A. Ask your Team Leader for guidance.","B. Ask your Manager directly about the issue.",
-                  "C. Ask the HR Admin if they know how to solve it.","D. Keep trying different solutions until you fix it yourself."],
-      "correct": "A. Ask your Team Leader for guidance.", "situation": False},
+     "options": ["A. Ctrl + C","B. Ctrl + B","C. Ctrl + V","D. Ctrl + S"], "correct": "C. Ctrl + V", "situation": False},
+    {"q": "What should you do if you face a problem or task that you don't know how to handle?",
+     "options": ["A. Ask your Team Leader for guidance.","B. Ask your Manager directly about the issue.",
+                 "C. Ask the HR Admin if they know how to solve it.","D. Keep trying different solutions until you fix it yourself."],
+     "correct": "A. Ask your Team Leader for guidance.", "situation": False},
     {"q": "How do you usually plan and organize your workday to stay productive?",
-      "options": ["A. Write a simple plan on a note and complete tasks whenever possible.",
-                  "B. Create main points and mark them when they are completed.",
-                  "C. Divide the day into time blocks and assign tasks to each period.",
-                  "D. Create a to-do list and organize tasks based on priority."],
-      "correct": "D. Create a to-do list and organize tasks based on priority.", "situation": False},
+     "options": ["A. Write a simple plan on a note and complete tasks whenever possible.",
+                 "B. Create main points and mark them when they are completed.",
+                 "C. Divide the day into time blocks and assign tasks to each period.",
+                 "D. Create a to-do list and organize tasks based on priority."],
+     "correct": "D. Create a to-do list and organize tasks based on priority.", "situation": False},
     {"q": "What would you do if you realized you made a mistake at work?",
-      "options": ["A. Ignore it and hope nobody notices.","B. Fix the mistake immediately and inform your Team Leader.",
-                  "C. Blame the system or another employee.","D. Wait until someone reports the problem."],
-      "correct": "B. Fix the mistake immediately and inform your Team Leader.", "situation": False},
-    {"q": 'You call a doctor\'s office to follow up on a prescription that needs the doctor\'s signature. The nurse answers but sounds busy and says "Call later."',
-      "options": ["A. Insist she checks immediately.","B. Hang up and stop following up.",
-                  "C. Explain the request again and ask for a convenient time to follow up.","D. Threaten to report them."],
-      "correct": "C. Explain the request again and ask for a convenient time to follow up.", "situation": True},
+     "options": ["A. Ignore it and hope nobody notices.","B. Fix the mistake immediately and inform your Team Leader.",
+                 "C. Blame the system or another employee.","D. Wait until someone reports the problem."],
+     "correct": "B. Fix the mistake immediately and inform your Team Leader.", "situation": False},
+    {"q": "You call a doctor's office to follow up on a prescription that needs the doctor's signature. The nurse answers but sounds busy and says \"Call later.\"",
+     "options": ["A. Insist she checks immediately.","B. Hang up and stop following up.",
+                 "C. Explain the request again and ask for a convenient time to follow up.","D. Threaten to report them."],
+     "correct": "C. Explain the request again and ask for a convenient time to follow up.", "situation": True},
     {"q": "You call to confirm the prescription fax but the nurse says they never received it.",
-      "options": ["A. Argue it is their fault.","B. Confirm the fax number and resend the document.",
-                  "C. Tell them to check better.","D. End the call."],
-      "correct": "B. Confirm the fax number and resend the document.", "situation": True},
+     "options": ["A. Argue it is their fault.","B. Confirm the fax number and resend the document.",
+                 "C. Tell them to check better.","D. End the call."],
+     "correct": "B. Confirm the fax number and resend the document.", "situation": True},
     {"q": "The nurse refuses to transfer the call because she is busy.",
-      "options": ["A. Ask politely if there is a better time to call or another staff member who can assist.",
-                  "B. Demand to speak to the doctor immediately.",
-                  "C. Hang up and mark the office as non-cooperative.","D. Call repeatedly."],
-      "correct": "A. Ask politely if there is a better time to call or another staff member who can assist.", "situation": True},
+     "options": ["A. Ask politely if there is a better time to call or another staff member who can assist.",
+                 "B. Demand to speak to the doctor immediately.",
+                 "C. Hang up and mark the office as non-cooperative.","D. Call repeatedly."],
+     "correct": "A. Ask politely if there is a better time to call or another staff member who can assist.", "situation": True},
     {"q": "The doctor is not in the office today to sign the prescription.",
-      "options": ["A. Ask when the doctor will return and schedule a follow-up call.",
-                  "B. Tell them it must be signed today.","C. Cancel the order.",
-                  "D. Ask them to sign it themselves."],
-      "correct": "A. Ask when the doctor will return and schedule a follow-up call.", "situation": True},
+     "options": ["A. Ask when the doctor will return and schedule a follow-up call.",
+                 "B. Tell them it must be signed today.","C. Cancel the order.",
+                 "D. Ask them to sign it themselves."],
+     "correct": "A. Ask when the doctor will return and schedule a follow-up call.", "situation": True},
 ]
 TOTAL_QUESTIONS = len(QUESTIONS)
+
 
 def init_state():
     for k, v in {"phase":"info","candidate":{},"current_q":0,"answers":{},"dark_mode":True}.items():
@@ -81,7 +82,7 @@ if dark:
         "hr":"rgba(99,179,237,0.12)","badge_bg":"rgba(99,179,237,0.08)",
         "opt_bg":"#111827","opt_sel":"rgba(99,179,237,0.14)","opt_sel_b":"#63b3ed",
         "sit_bg":"rgba(99,179,237,0.09)","sit_c":"#63b3ed",
-        "toggle":"☀️  Light","logo_bg":"transparent",
+        "toggle":"\u2600\ufe0f  Light","logo_bg":"transparent",
         "sec_bg":"#1a2236","sec_c":"#e2e8f0",
     }
 else:
@@ -95,135 +96,150 @@ else:
         "hr":"rgba(30,80,160,0.12)","badge_bg":"rgba(30,80,160,0.07)",
         "opt_bg":"#ffffff","opt_sel":"rgba(30,80,160,0.09)","opt_sel_b":"#1e50a0",
         "sit_bg":"rgba(30,80,160,0.07)","sit_c":"#1e50a0",
-        "toggle":"🌙  Dark","logo_bg":"#12142a",
+        "toggle":"\U0001f319  Dark","logo_bg":"#12142a",
         "sec_bg":"#edf2f7","sec_c":"#1a202c",
     }
 
-st.markdown(f"""
+
+# CSS uses .format(**T) so CSS braces { } are written as {{ }} 
+# and theme variables are written as {key}
+CSS_TEMPLATE = """
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
-  html, body, [class*="css"] { font-family: 'Sora', sans-serif !important; }
-  .stApp {
-    background: {T["bg"]} !important;
-    background-image: radial-gradient(ellipse 80% 50% at 15% 10%, rgba(99,179,237,0.07) 0%, transparent 60%),
-                      radial-gradient(ellipse 60% 40% at 85% 90%, rgba(79,209,199,0.05) 0%, transparent 60%);
-  }
-  #MainMenu, footer, header { visibility: hidden; }
-  .block-container { padding-top: 1.5rem; padding-bottom: 2rem; max-width: 700px; }
+  html, body, [class*="css"] {{ font-family: 'Sora', sans-serif !important; }}
 
-  .logo-wrap { display:flex; align-items:center; gap:14px; padding:12px 0 4px 0; }
-  .logo-img { width:54px; height:54px; border-radius:12px; background:{T["logo_bg"]}; object-fit:contain; padding:3px; }
-  .logo-name { font-size:20px; font-weight:700; letter-spacing:-0.01em; color:{T["text"]}; line-height:1.2; }
-  .logo-sub { font-size:11px; color:{T["muted"]}; font-family:'JetBrains Mono',monospace; letter-spacing:0.09em; text-transform:uppercase; }
+  .stApp {{
+    background: {bg} !important;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 15% 10%, rgba(99,179,237,0.07) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 40% at 85% 90%, rgba(79,209,199,0.05) 0%, transparent 60%);
+  }}
+  #MainMenu, footer, header {{ visibility: hidden; }}
+  .block-container {{ padding-top: 1.5rem; padding-bottom: 2rem; max-width: 700px; }}
 
-  h1 { font-size:1.8rem !important; font-weight:700 !important; letter-spacing:-0.02em !important;
-       background:{T["h1"]}; -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; margin-bottom:4px !important; }
-  p, label, div { color:{T["text"]}; }
-  .muted { color:{T["muted"]} !important; font-size:14px !important; }
+  /* Logo */
+  .logo-wrap {{ display:flex; align-items:center; gap:14px; padding:12px 0 4px 0; }}
+  .logo-img {{ width:56px; height:56px; border-radius:12px; background:{logo_bg}; object-fit:contain; padding:3px; }}
+  .logo-name {{ font-size:20px; font-weight:700; letter-spacing:-0.01em; color:{text}; line-height:1.2; }}
+  .logo-sub {{ font-size:11px; color:{muted}; font-family:'JetBrains Mono',monospace; letter-spacing:0.09em; text-transform:uppercase; }}
 
-  .badge { display:inline-block; font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.14em;
-            text-transform:uppercase; color:{T["accent"]}; background:{T["badge_bg"]};
-            border:1px solid {T["border_h"]}; padding:4px 14px; border-radius:20px; margin-bottom:10px; }
-  .sit-badge { display:inline-block; background:{T["sit_bg"]}; color:{T["sit_c"]};
+  /* Typography */
+  h1 {{ font-size:1.8rem !important; font-weight:700 !important; letter-spacing:-0.02em !important;
+       background:{h1}; -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+       background-clip:text; margin-bottom:4px !important; }}
+  p, label, div {{ color:{text}; }}
+  .muted {{ color:{muted} !important; font-size:14px !important; }}
+
+  /* Badges */
+  .badge {{ display:inline-block; font-family:'JetBrains Mono',monospace; font-size:11px;
+            letter-spacing:0.14em; text-transform:uppercase; color:{accent};
+            background:{badge_bg}; border:1px solid {border_h};
+            padding:4px 14px; border-radius:20px; margin-bottom:10px; }}
+  .sit-badge {{ display:inline-block; background:{sit_bg}; color:{sit_c};
                font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase;
                padding:3px 12px; border-radius:20px; margin-bottom:10px;
-               font-family:'JetBrains Mono',monospace; border:1px solid {T["border"]}; }
-  .q-num { font-family:'JetBrains Mono',monospace; font-size:11px; color:{T["accent"]};
-            letter-spacing:0.1em; text-transform:uppercase; margin-bottom:6px; }
-  .q-text { font-size:16px; font-weight:600; color:{T["text"]}; line-height:1.65; margin-bottom:4px; }
-  .prog-lbl { font-family:'JetBrains Mono',monospace; font-size:11px; color:{T["muted"]};
-              display:flex; justify-content:space-between; margin-bottom:6px; }
+               font-family:'JetBrains Mono',monospace; border:1px solid {border}; }}
+  .q-num {{ font-family:'JetBrains Mono',monospace; font-size:11px; color:{accent};
+            letter-spacing:0.1em; text-transform:uppercase; margin-bottom:6px; }}
+  .q-text {{ font-size:16px; font-weight:600; color:{text}; line-height:1.65; margin-bottom:4px; }}
+  .prog-lbl {{ font-family:'JetBrains Mono',monospace; font-size:11px; color:{muted};
+              display:flex; justify-content:space-between; margin-bottom:6px; }}
 
-  .stTextInput > div > div > input {
-    background:{T["input_bg"]} !important; border:1px solid {T["border"]} !important;
-    border-radius:10px !important; color:{T["text"]} !important;
+  /* Inputs */
+  .stTextInput > div > div > input {{
+    background:{input_bg} !important; border:1px solid {border} !important;
+    border-radius:10px !important; color:{text} !important;
     font-family:'Sora',sans-serif !important; padding:12px 16px !important; font-size:15px !important;
-  }
-  .stTextInput > div > div > input:focus {
-    border-color:{T["accent"]} !important; box-shadow:0 0 0 3px rgba(99,179,237,0.12) !important;
-  }
-  .stTextInput label { color:{T["muted"]} !important; font-size:11px !important;
-                        text-transform:uppercase; letter-spacing:0.08em; font-weight:500; }
+  }}
+  .stTextInput > div > div > input:focus {{
+    border-color:{accent} !important; box-shadow:0 0 0 3px rgba(99,179,237,0.12) !important;
+  }}
+  .stTextInput label {{
+    color:{muted} !important; font-size:11px !important;
+    text-transform:uppercase; letter-spacing:0.08em; font-weight:500;
+  }}
 
-  /* Radio: completely unselected on new question */
-  .stRadio > label { display:none !important; }
-  .stRadio > div { gap:10px !important; flex-direction:column !important; }
-  .stRadio > div > label {
-    background:{T["opt_bg"]} !important; border:1.5px solid {T["border"]} !important;
-    border-radius:12px !important; padding:14px 18px !important; color:{T["text"]} !important;
+  /* Radio — nothing pre-selected */
+  .stRadio > label {{ display:none !important; }}
+  .stRadio > div {{ gap:10px !important; flex-direction:column !important; }}
+  .stRadio > div > label {{
+    background:{opt_bg} !important; border:1.5px solid {border} !important;
+    border-radius:12px !important; padding:14px 18px !important; color:{text} !important;
     font-size:14px !important; font-weight:400 !important; cursor:pointer !important;
     width:100% !important; transition:border-color 0.18s, background 0.18s !important;
     display:flex !important; align-items:center !important;
-  }
-  .stRadio > div > label:hover {
-    border-color:{T["border_h"]} !important; background:{T["sit_bg"]} !important;
-  }
-  div[data-testid="stRadio"] label:has(input:checked) {
-    border-color:{T["opt_sel_b"]} !important; background:{T["opt_sel"]} !important;
+  }}
+  .stRadio > div > label:hover {{
+    border-color:{border_h} !important; background:{sit_bg} !important;
+  }}
+  div[data-testid="stRadio"] label:has(input:checked) {{
+    border-color:{opt_sel_b} !important; background:{opt_sel} !important;
     font-weight:500 !important;
-  }
-  .stRadio input[type="radio"] { accent-color:{T["accent"]} !important; }
+  }}
+  .stRadio input[type="radio"] {{ accent-color:{accent} !important; }}
 
   /* Primary button */
-  .stButton > button {
-    background: linear-gradient(135deg, {T["accent"]}, {T["accent2"]}) !important;
-    color: {T["btn_fg"]} !important; font-family:'Sora',sans-serif !important;
+  .stButton > button {{
+    background: linear-gradient(135deg, {accent}, {accent2}) !important;
+    color: {btn_fg} !important; font-family:'Sora',sans-serif !important;
     font-weight:700 !important; font-size:15px !important; border:none !important;
     border-radius:10px !important; padding:13px 28px !important;
     width:100% !important; transition:all 0.2s !important;
-  }
-  .stButton > button:hover {
+  }}
+  .stButton > button:hover {{
     transform:translateY(-1px) !important; filter:brightness(1.07) !important;
     box-shadow:0 8px 24px rgba(99,179,237,0.28) !important;
-  }
-  /* Back / toggle button — secondary look via first column */
-  div[data-testid="column"]:first-child .stButton > button {
-    background: {T["sec_bg"]} !important; color: {T["sec_c"]} !important;
-    border: 1.5px solid {T["border"]} !important;
-    font-size:13px !important; font-weight:500 !important; padding:10px 16px !important;
-    box-shadow: none !important;
-  }
-  div[data-testid="column"]:first-child .stButton > button:hover {
-    border-color:{T["border_h"]} !important; transform:none !important;
-    box-shadow:none !important;
-  }
+  }}
+  /* Secondary (back / toggle) buttons via first column */
+  div[data-testid="column"]:first-child .stButton > button {{
+    background:{sec_bg} !important; color:{sec_c} !important;
+    border:1.5px solid {border} !important;
+    font-size:13px !important; font-weight:500 !important;
+    padding:10px 16px !important; box-shadow:none !important;
+  }}
+  div[data-testid="column"]:first-child .stButton > button:hover {{
+    border-color:{border_h} !important; transform:none !important; box-shadow:none !important;
+  }}
 
-  hr { border-color:{T["hr"]} !important; margin:14px 0 !important; }
-  .err { color:#fc8181 !important; font-size:13px !important; margin-top:4px; }
+  hr {{ border-color:{hr} !important; margin:14px 0 !important; }}
+  .err {{ color:#fc8181 !important; font-size:13px !important; margin-top:4px; }}
 
-  div[data-testid="stProgress"] > div > div > div {
-    background: linear-gradient(90deg, {T["accent"]}, {T["accent2"]}) !important;
-  }
-  div[data-testid="stAlert"] {
-    background: rgba(252,129,74,0.09) !important; border:1px solid rgba(252,129,74,0.35) !important;
+  div[data-testid="stProgress"] > div > div > div {{
+    background: linear-gradient(90deg, {accent}, {accent2}) !important;
+  }}
+  div[data-testid="stAlert"] {{
+    background:rgba(252,129,74,0.09) !important; border:1px solid rgba(252,129,74,0.35) !important;
     border-radius:10px !important;
-  }
+  }}
 
-  .success-box {
-    background:{T["surface"]}; border:1px solid {T["border"]}; border-radius:16px;
-    padding:52px 32px; text-align:center; box-shadow:{T["shadow"]};
-  }
-  .success-icon { font-size:52px; margin-bottom:20px; }
-  .success-title { font-size:22px; font-weight:700; background:{T["h1"]};
+  /* Success page */
+  .success-box {{
+    background:{surface}; border:1px solid {border}; border-radius:16px;
+    padding:52px 32px; text-align:center; box-shadow:{shadow};
+  }}
+  .success-icon {{ font-size:52px; margin-bottom:20px; }}
+  .success-title {{ font-size:22px; font-weight:700; background:{h1};
                    -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-                   background-clip:text; margin-bottom:14px; }
-  .success-msg { color:{T["muted"]}; font-size:15px; line-height:1.75; max-width:420px; margin:0 auto; }
+                   background-clip:text; margin-bottom:14px; }}
+  .success-msg {{ color:{muted}; font-size:15px; line-height:1.75; max-width:420px; margin:0 auto; }}
 </style>
-""", unsafe_allow_html=True)
+"""
+
+st.markdown(CSS_TEMPLATE.format(**T), unsafe_allow_html=True)
 
 
 # ── Top bar: logo + theme toggle ──────────────────────────────────────────────
 col_logo, col_tog = st.columns([5, 1])
 with col_logo:
     bg_style = f"background:{T['logo_bg']};" if T["logo_bg"] != "transparent" else ""
-    st.markdown(f'''
+    st.markdown(f"""
     <div class="logo-wrap">
       <img class="logo-img" src="data:image/png;base64,{LOGO_B64}" style="{bg_style}" alt="logo">
       <div>
         <div class="logo-name">In-Call Outsourcing</div>
         <div class="logo-sub">Candidate Assessment Portal</div>
       </div>
-    </div>''', unsafe_allow_html=True)
+    </div>""", unsafe_allow_html=True)
 with col_tog:
     st.markdown("<div style='padding-top:20px'>", unsafe_allow_html=True)
     if st.button(T["toggle"], key="theme"):
@@ -234,60 +250,79 @@ with col_tog:
 st.markdown("<hr>", unsafe_allow_html=True)
 
 
-# ── Google Sheets helpers ─────────────────────────────────────────────────────
+# ── Google Sheets ─────────────────────────────────────────────────────────────
 def get_gsheet_client():
-    scopes = ["https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive"]
-    creds = Credentials.from_service_account_info(dict(st.secrets["gcp_service_account"]), scopes=scopes)
+    scopes = ["https://www.googleapis.com/auth/spreadsheets",
+              "https://www.googleapis.com/auth/drive"]
+    creds = Credentials.from_service_account_info(
+        dict(st.secrets["gcp_service_account"]), scopes=scopes)
     return gspread.authorize(creds)
 
 def ensure_header(ws):
     try:
-        if not ws.cell(1,1).value: raise ValueError
+        if not ws.cell(1, 1).value:
+            raise ValueError
     except Exception:
-        ws.append_row(["Timestamp","Name","Phone","Email","Score"]+[f"Q{i+1}" for i in range(TOTAL_QUESTIONS)])
+        ws.append_row(
+            ["Timestamp","Name","Phone","Email","Score"] +
+            [f"Q{i+1}" for i in range(TOTAL_QUESTIONS)])
 
 def submit_to_sheet(candidate, answers, score):
     try:
         ws = get_gsheet_client().open_by_key(GOOGLE_SHEET_ID).worksheet(SHEET_NAME)
         ensure_header(ws)
         ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        letters = [answers.get(i,"—")[0] if answers.get(i) else "—" for i in range(TOTAL_QUESTIONS)]
-        ws.append_row([ts,candidate["name"],candidate["phone"],candidate["email"],f"{score}/{TOTAL_QUESTIONS}"]+letters)
+        letters = [answers.get(i, "\u2014")[0] if answers.get(i) else "\u2014"
+                   for i in range(TOTAL_QUESTIONS)]
+        ws.append_row(
+            [ts, candidate["name"], candidate["phone"], candidate["email"],
+             f"{score}/{TOTAL_QUESTIONS}"] + letters)
         return True, None
     except Exception as e:
         return False, str(e)
 
 def calculate_score(answers):
-    return sum(1 for i,q in enumerate(QUESTIONS) if answers.get(i)==q["correct"])
+    return sum(1 for i, q in enumerate(QUESTIONS) if answers.get(i) == q["correct"])
 
-def valid_email(e): return bool(re.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", e))
-def valid_phone(p): return bool(re.match(r"^[\d\s\+\-\(\)]{7,20}$", p))
+def valid_email(e):
+    return bool(re.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", e))
+
+def valid_phone(p):
+    return bool(re.match(r"^[\d\s\+\-\(\)]{7,20}$", p))
 
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: INFO
 # ══════════════════════════════════════════════════════════════════════════════
 def page_info():
-    st.markdown('<div class="badge">Step 1 of 2 — Candidate Details</div>', unsafe_allow_html=True)
+    st.markdown('<div class="badge">Step 1 of 2 \u2014 Candidate Details</div>', unsafe_allow_html=True)
     st.markdown("# Skills Assessment")
-    st.markdown('<p class="muted">Please enter your information below to begin the assessment.</p>', unsafe_allow_html=True)
+    st.markdown('<p class="muted">Please enter your information below to begin the assessment.</p>',
+                unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
+
     name  = st.text_input("Full Name", placeholder="e.g. Sarah Johnson",
-                          value=st.session_state.candidate.get("name",""))
+                          value=st.session_state.candidate.get("name", ""))
     phone = st.text_input("Phone Number", placeholder="e.g. +20 100 000 0000",
-                          value=st.session_state.candidate.get("phone",""))
+                          value=st.session_state.candidate.get("phone", ""))
     email = st.text_input("Email Address", placeholder="e.g. sarah@example.com",
-                          value=st.session_state.candidate.get("email",""))
+                          value=st.session_state.candidate.get("email", ""))
+
     st.markdown("<br>", unsafe_allow_html=True)
-    if st.button("Begin Assessment →", key="btn_start"):
+    if st.button("Begin Assessment \u2192", key="btn_start"):
         errors = []
-        if not name.strip(): errors.append("Full name is required.")
-        if not phone.strip() or not valid_phone(phone.strip()): errors.append("A valid phone number is required.")
-        if not email.strip() or not valid_email(email.strip()): errors.append("A valid email address is required.")
+        if not name.strip():
+            errors.append("Full name is required.")
+        if not phone.strip() or not valid_phone(phone.strip()):
+            errors.append("A valid phone number is required.")
+        if not email.strip() or not valid_email(email.strip()):
+            errors.append("A valid email address is required.")
         if errors:
-            for e in errors: st.markdown(f'<p class="err">⚠ {e}</p>', unsafe_allow_html=True)
+            for e in errors:
+                st.markdown(f'<p class="err">\u26a0 {e}</p>', unsafe_allow_html=True)
         else:
-            st.session_state.candidate = {"name":name.strip(),"phone":phone.strip(),"email":email.strip()}
+            st.session_state.candidate = {
+                "name": name.strip(), "phone": phone.strip(), "email": email.strip()}
             st.session_state.phase = "assessment"
             st.session_state.current_q = 0
             st.rerun()
@@ -300,23 +335,24 @@ def page_assessment():
     idx = st.session_state.current_q
     q   = QUESTIONS[idx]
 
-    st.markdown('<div class="badge">Step 2 of 2 — Assessment</div>', unsafe_allow_html=True)
+    st.markdown('<div class="badge">Step 2 of 2 \u2014 Assessment</div>', unsafe_allow_html=True)
     st.markdown("# Skills Assessment")
 
     pct = int((idx / TOTAL_QUESTIONS) * 100)
     st.markdown(
-        f'<div class="prog-lbl"><span>Question {idx+1} of {TOTAL_QUESTIONS}</span><span>{pct}% complete</span></div>',
+        f'<div class="prog-lbl"><span>Question {idx+1} of {TOTAL_QUESTIONS}</span>'
+        f'<span>{pct}% complete</span></div>',
         unsafe_allow_html=True)
     st.progress(idx / TOTAL_QUESTIONS)
     st.markdown("<br>", unsafe_allow_html=True)
 
     if q["situation"]:
-        st.markdown('<div class="sit-badge">📋 Situation</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sit-badge">\U0001f4cb Situation</div>', unsafe_allow_html=True)
     st.markdown(f'<div class="q-num">Question {idx+1} / {TOTAL_QUESTIONS}</div>', unsafe_allow_html=True)
     st.markdown(f'<div class="q-text">{q["q"]}</div>', unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # Restore prior answer only — otherwise index=None means nothing selected
+    # index=None means nothing pre-selected for fresh questions
     prev = st.session_state.answers.get(idx)
     radio_idx = q["options"].index(prev) if prev in q["options"] else None
 
@@ -332,16 +368,17 @@ def page_assessment():
     col1, col2 = st.columns([1, 3])
     with col1:
         if idx > 0:
-            if st.button("← Back", key="btn_back"):
-                if chosen: st.session_state.answers[idx] = chosen
+            if st.button("\u2190 Back", key="btn_back"):
+                if chosen:
+                    st.session_state.answers[idx] = chosen
                 st.session_state.current_q -= 1
                 st.rerun()
     with col2:
         is_last = (idx == TOTAL_QUESTIONS - 1)
-        lbl = "Submit Assessment ✓" if is_last else "Next Question →"
+        lbl = "Submit Assessment \u2713" if is_last else "Next Question \u2192"
         if st.button(lbl, key="btn_next"):
             if not chosen:
-                st.warning("⚠ Please select an answer before continuing.")
+                st.warning("\u26a0 Please select an answer before continuing.")
             else:
                 st.session_state.answers[idx] = chosen
                 if is_last:
@@ -356,9 +393,10 @@ def page_assessment():
 # PAGE: SUBMITTING
 # ══════════════════════════════════════════════════════════════════════════════
 def page_submitting():
-    with st.spinner("Submitting your assessment…"):
+    with st.spinner("Submitting your assessment\u2026"):
         score = calculate_score(st.session_state.answers)
-        ok, err = submit_to_sheet(st.session_state.candidate, st.session_state.answers, score)
+        ok, err = submit_to_sheet(
+            st.session_state.candidate, st.session_state.answers, score)
     if ok:
         st.session_state.phase = "done"
         st.rerun()
@@ -372,7 +410,7 @@ def page_submitting():
 def page_done():
     st.markdown("""
     <div class="success-box">
-      <div class="success-icon">✅</div>
+      <div class="success-icon">\u2705</div>
       <div class="success-title">Assessment Complete</div>
       <p class="success-msg">
         Thank you for completing the assessment.<br>
@@ -384,7 +422,11 @@ def page_done():
 
 # ── Router ────────────────────────────────────────────────────────────────────
 phase = st.session_state.phase
-if phase == "info":         page_info()
-elif phase == "assessment": page_assessment()
-elif phase == "submitting": page_submitting()
-elif phase == "done":       page_done()
+if phase == "info":
+    page_info()
+elif phase == "assessment":
+    page_assessment()
+elif phase == "submitting":
+    page_submitting()
+elif phase == "done":
+    page_done()
